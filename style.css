@@ -40,6 +40,9 @@ body {
     margin-top: 10px;
     color: bisque;
     text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 8px;
 }
 
 .container input {
@@ -188,6 +191,8 @@ button:active {
         height: 290px;
         margin-top: 20px;
         margin-left: 0px;
+        margin-bottom: 10px;
+        
     }
 
     .container2 h1 {
