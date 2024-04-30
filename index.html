@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <h1>Calculadora de IMC</h1>
+            <input class="input-altura" type="number" placeholder="digite sua Altura:">
+            <input class="input-peso" type="number" placeholder="digite seu Peso:">
+            <button onclick="calcularImc()" class="btn-calcular">Calcular</button>
+            <p class="result"><img src="/assets/icons8-pensador-48.png" alt=""></p>
+        </div>
+
+        <div class="formula-peso">
+            <img src="/assets/imc-formula.png" alt="forlula-quadro" width="200px">
+        </div>
+
+        <div class="container2">
+
+            <h1>A tabela do IMC é a seguinte:</h1>
+
+            <ul>resultados menores que 16 — magreza grave;</ul>
+            <ul>resultados entre 16 e 16,9 — magreza moderada;</ul>
+            <ul> resultados entre 17 e 18,5 — magreza leve;</ul>
+            <ul>resultados entre 18,6 e 24,9 — peso ideal;</ul>
+            <ul>resultados entre 25 e 29,9 — sobrepeso;</ul>
+            <ul>resultados entre 30 e 34,9 — obesidade grau I.</ul>
+            <ul>resultados acima de 34,9 — obesidade mórbida.</ul>
+
+
+        </div>
+    </section>
+
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
